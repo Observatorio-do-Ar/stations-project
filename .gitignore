@@ -1,55 +1,23 @@
-# Prerequisites
-*.d
+# Sistema de build CMake e Ninja
+build/
+CMakeCache.txt
+CMakeFiles/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Sistema de configuração Kconfig
+sdkconfig.old
+sdkconfig
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# IDF Component Manager
+managed_components/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Variáveis e configurações locais de IDE (Opcional)
+.vscode/
+.idea/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# Arquivos Temporários do Python e do Sistema
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.cache/*
+.clangd
